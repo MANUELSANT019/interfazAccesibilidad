@@ -60,10 +60,10 @@
 .entrada1{
     background-color: #fff;
     position: absolute;
-    bottom: -30px;
-    left: 60px;
-    height: 1px;
-    width: 40px;
+    bottom: 60px;
+    left: 170px;
+    height: 40px;
+    width: 10px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -78,7 +78,7 @@
     
 }
 .entrada2{
-    background-color: #fff;
+    background-color: red;
     position: absolute;
     bottom: 90px;
     left: 60px;
@@ -92,4 +92,30 @@
     position: relative;
     top: 20px;
     left: 30px;
+}
+
+.bloque3{
+    width: 350px;
+    height: 200px;
+    border: 3px solid black;
+    position: relative;
+    top: -925px;
+    left: 1015px;
+}
+
+.entrada3{
+    background-color: #fff;
+    position: absolute;
+    bottom: -40px;
+    left: 130px;
+    height: 1px;
+    width: 40px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.zona3{
+    position: relative;
+    top: 60px;
+    left: 110px;
 }
