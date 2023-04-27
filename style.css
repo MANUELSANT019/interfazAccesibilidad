@@ -21,6 +21,9 @@
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border: 8px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 .entrada{
     background-color: #fff;
@@ -34,11 +37,7 @@
     
 }
 
-.estructura{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
+
 
 .bloque1{
     width: 268px;
@@ -60,8 +59,9 @@
 .entrada1{
     width: 50px;
     height: 50px;
-    background-color: brown;
-    left: auto;
+    background-color: brown !important;
+    margin-left: 20%;
+    z-index: 9;
 }
 
 .bloque2{
