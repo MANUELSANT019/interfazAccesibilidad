@@ -1,4 +1,3 @@
-
 .container {
     background-color: #84D375;
     height: 600px;
@@ -30,60 +29,87 @@
     position: absolute;
     bottom: -1px;
     left: 450px;
-    height: 200px;
+    height: 150px;
     width: 100px;
     margin: 0 auto;
     padding: 20px;
     
 }
 
-
-
 .bloque1{
-    width: 268px;
+    width: 266px;
     height: 150px;
     border: 4px solid black;
     margin: -25px;
-    display: flex;
+    margin-bottom: 30px;
+   
+    
+}
+.bloque2{
+    float: right;
+    width: 266px;
+    height: 150px;
+    border: 4px solid black;
+    margin: -25px;
+    margin-bottom: 20px;
+   
+    
+}
+.bloque3{
+    float: right;
+    width: 290px;
+    height: 150px;
+    border: 4px solid black;
+    margin: -25px;
+   
     
 }
 
-.zona1{
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
+.bloque4{
+    
+    
+    margin: right  20px;
+    width: 200px;
+    height: 140px;
+    border: 4px solid black;
+    margin: -25px;
+   background-color: #84D375;
+   
+    
+}
+.bloque7{
+    
+    
+    margin: right  20px;
+    width: 200px;
+    height: 80px;
+    border: 4px solid black;
+    margin: -25px;
+   background-color: #c300ff;
+   
+    
 }
 
-
-
-.bloque2{
-    width: 250px;
+.bloque5{
+    float: right;
+    margin-top: 300px;
+    width: 290px;
     height: 200px;
     border: 4px solid black;
     margin: -25px;
-    text-align: center; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   background-color: #ce1313;
+   margin: right     100px;
+    
 }
 
-.zona2{
-    margin: 0; 
-    line-height: 300px;
-}
 
-.bloque3{
-    width: 150px;
-    height: 150px;
+.bloque6{
+    float: left;
+    margin-top: 300px;
+    width: 220px;
+    height: 200px;
     border: 4px solid black;
     margin: -25px;
-    bottom: 200px;
-    left: 300px;
+    background-color: #1328e4;
 }
-
-
-
-
-
 
